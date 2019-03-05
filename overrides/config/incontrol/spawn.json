@@ -1,0 +1,86 @@
+[
+  {
+    "mob": "minecraft:squid",
+    "dimension": 3,
+    "biome": [
+	"aether:aether_highlands",
+	"aether:aether_magnetic_hills",
+	"aether:aether_arctic_peaks",
+	"aether:aether_forgotten_highlands",
+	"aether:aether_irradiated_forests",
+	"aether:aether_void",
+	"aether_legacy:aether_highlands"
+	],
+    "result": "allow"
+  },
+  {
+    "mob": "minecraft:squid",
+    "dimension": 4,
+    "biome": [
+	"aether:aether_highlands",
+	"aether:aether_magnetic_hills",
+	"aether:aether_arctic_peaks",
+	"aether:aether_forgotten_highlands",
+	"aether:aether_irradiated_forests",
+	"aether:aether_void",
+	"aether_legacy:aether_highlands"
+	],
+    "result": "allow"
+  },
+  {
+    "mob": "minecraft:squid",
+    "dimension": 5,
+    "biome": [
+	"aether:aether_highlands",
+	"aether:aether_magnetic_hills",
+	"aether:aether_arctic_peaks",
+	"aether:aether_forgotten_highlands",
+	"aether:aether_irradiated_forests",
+	"aether:aether_void",
+	"aether_legacy:aether_highlands"
+	],
+    "result": "allow"
+  },
+  {
+    "mob": "Squid",
+    "dimension": 3,
+    "biome": [
+	"aether:aether_highlands",
+	"aether:aether_magnetic_hills",
+	"aether:aether_arctic_peaks",
+	"aether:aether_forgotten_highlands",
+	"aether:aether_irradiated_forests",
+	"aether:aether_void",
+	"aether_legacy:aether_highlands"
+	],
+    "result": "allow"
+  },
+  {
+    "mob": "Squid",
+    "dimension": 4,
+    "biome": [
+	"aether:aether_highlands",
+	"aether:aether_magnetic_hills",
+	"aether:aether_arctic_peaks",
+	"aether:aether_forgotten_highlands",
+	"aether:aether_irradiated_forests",
+	"aether:aether_void",
+	"aether_legacy:aether_highlands"
+	],
+    "result": "allow"
+  },
+  {
+    "mob": "Squid",
+    "dimension": 5,
+    "biome": [
+	"aether:aether_highlands",
+	"aether:aether_magnetic_hills",
+	"aether:aether_arctic_peaks",
+	"aether:aether_forgotten_highlands",
+	"aether:aether_irradiated_forests",
+	"aether:aether_void",
+	"aether_legacy:aether_highlands"
+	],
+    "result": "allow"
+  }
+]

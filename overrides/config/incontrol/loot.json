@@ -1,0 +1,39 @@
+[
+  {
+    "mob": "aether:aerbunny",
+    "item": "minecraft:rabbit",
+    "itemcount": "0-1/0-2/0-3/0-4"
+  },
+  {
+    "mob": "aether:aerbunny",
+    "item": "minecraft:rabbit_hide",
+    "itemcount": "0-1/0-2/0-3/0-4"
+  },
+  {
+    "mob": "aether:aerbunny",
+    "player": true,
+    "item": "minecraft:rabbit_foot",
+    "itemcount": "0-0.1/0-0.13/0-0.16/0-0.19"
+  },
+  {
+    "mob": "aether_legacy:aerbunny",
+    "item": "minecraft:rabbit",
+    "itemcount": "0-1/0-2/0-3/0-4"
+  },
+  {
+    "mob": "aether_legacy:aerbunny",
+    "item": "minecraft:rabbit_hide",
+    "itemcount": "0-1/0-2/0-3/0-4"
+  },
+  {
+    "mob": "aether_legacy:aerbunny",
+    "player": true,
+    "item": "minecraft:rabbit_foot",
+    "itemcount": "0-0.1/0-0.13/0-0.16/0-0.19"
+  },
+  {
+    "mob": "aether:aechor_plant",
+    "item": "harvestcraft:cassavaitem",
+    "itemcount": "0-1/0-2/0-3/0-4"
+  }
+]
