@@ -246,12 +246,14 @@ var listAllberry = <ore:listAllberry>;
 
 var listAllfruit = <ore:listAllfruit>;
     listAllfruit.addItems([
-		<aether:blueberries>,
-		<aether:enchanted_blueberry>,
 		<aether:orange>,
+		<aether_legacy:white_apple>,
+		<aether_legacy:blue_berry>,
+		<aether_legacy:enchanted_blueberry>,
 		<aether:wyndberry>,
 		<aether:enchanted_wyndberry>,
-		<aether_legacy:white_apple>
+		<aether:blueberries>,
+		<aether:enchanted_blueberry>
 	]);
 
 var cropApple = <ore:cropApple>;
@@ -262,7 +264,12 @@ var cropApple = <ore:cropApple>;
 var cropBlueberry = <ore:cropBlueberry>;
     cropBlueberry.addItems([
 		<aether:blueberries>,
-		<aether:enchanted_blueberry>,
+		<aether:enchanted_blueberry>
+	]);
+
+var cropBlackberry = <ore:cropBlackberry>;
+    cropBlackberry.addItems([
+		<aether_legacy:blue_berry>,
 		<aether_legacy:enchanted_blueberry>
 	]);
 

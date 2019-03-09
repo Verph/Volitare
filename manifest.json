@@ -11,7 +11,7 @@
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
   "name": "Volitare",
-  "version": "0.4",
+  "version": "0.4.1",
   "author": "verph",
   "files": [
     {
@@ -56,12 +56,7 @@
     },
     {
       "projectID": 238222,
-      "fileID": 2682936,
-      "required": true
-    },
-    {
-      "projectID": 255308,
-      "fileID": 2681139,
+      "fileID": 2684645,
       "required": true
     },
     {
@@ -111,12 +106,12 @@
     },
     {
       "projectID": 257356,
-      "fileID": 2678947,
+      "fileID": 2683868,
       "required": true
     },
     {
       "projectID": 237102,
-      "fileID": 2680753,
+      "fileID": 2684363,
       "required": true
     },
     {
@@ -276,7 +271,7 @@
     },
     {
       "projectID": 253211,
-      "fileID": 2567171,
+      "fileID": 2684561,
       "required": true
     },
     {
@@ -347,6 +342,21 @@
     {
       "projectID": 261837,
       "fileID": 2672413,
+      "required": true
+    },
+    {
+      "projectID": 255308,
+      "fileID": 2684921,
+      "required": true
+    },
+    {
+      "projectID": 309674,
+      "fileID": 2666224,
+      "required": true
+    },
+    {
+      "projectID": 289412,
+      "fileID": 2684366,
       "required": true
     }
   ],

@@ -31,9 +31,7 @@
 			"dimension": {
 				"restriction": "whitelist",
 				"value": [
-					3,
-					4,
-					5
+					3
 				]
 			}
 		},
@@ -64,9 +62,7 @@
 			"dimension": {
 				"restriction": "whitelist",
 				"value": [
-					3,
-					4,
-					5
+					3
 				]
 			}
 		},
@@ -97,9 +93,7 @@
 			"dimension": {
 				"restriction": "whitelist",
 				"value": [
-					3,
-					4,
-					5
+					3
 				]
 			}
 		},
@@ -134,9 +128,7 @@
 			"dimension": {
 				"restriction": "whitelist",
 				"value": [
-					3,
-					4,
-					5
+					3
 				]
 			}
 		},
@@ -171,9 +163,7 @@
 			"dimension": {
 				"restriction": "whitelist",
 				"value": [
-					3,
-					4,
-					5
+					3
 				]
 			}
 		},
@@ -208,9 +198,7 @@
 			"dimension": {
 				"restriction": "whitelist",
 				"value": [
-					3,
-					4,
-					5
+					3
 				]
 			}
 		},
@@ -250,9 +238,7 @@
 			"dimension": {
 				"restriction": "whitelist",
 				"value": [
-					3,
-					4,
-					5
+					3
 				]
 			}
 		},
@@ -289,9 +275,7 @@
 			"dimension": {
 				"restriction": "whitelist",
 				"value": [
-					3,
-					4,
-					5
+					3
 				]
 			}
 		},
@@ -327,9 +311,7 @@
 			"dimension": {
 				"restriction": "whitelist",
 				"value": [
-					3,
-					4,
-					5
+					3
 				]
 			}
 		},
@@ -364,9 +346,7 @@
 			"dimension": {
 				"restriction": "whitelist",
 				"value": [
-					3,
-					4,
-					5
+					3
 				]
 			}
 		},

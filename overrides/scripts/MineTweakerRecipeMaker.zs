@@ -12,6 +12,11 @@
 
 // ================================================================================
 //#MARKER REMOVE
+recipes.remove(<aether:taegore_hide_helmet>);
+recipes.remove(<aether:taegore_hide_chestplate>);
+recipes.remove(<aether:taegore_hide_leggings>);
+recipes.remove(<aether:taegore_hide_boots>);
+recipes.remove(<aether:taegore_hide_gloves>);
 recipes.remove(<aether_legacy:incubator>);
 recipes.remove(<aether_legacy:freezer>);
 recipes.remove(<aether_legacy:enchanter>);
@@ -76,6 +81,8 @@ recipes.addShapeless(<minecraft:wool> * 4, [<aether:cloudwool_block>, <aether:cl
 
 // ================================================================================
 //#MARKER ADD SHAPED
+recipes.addShaped(<aether:skyroot_bucket>, [[<ore:skyrootplanks>, null, <ore:skyrootplanks>], [<ore:skyrootplanks>, null, <ore:skyrootplanks>], [null, <ore:skyrootplanks>, null]]);
+recipes.addShaped(<aether_legacy:skyroot_bucket>, [[<aether_legacy:skyroot_plank>, null, <aether_legacy:skyroot_plank>], [<aether_legacy:skyroot_plank>, null, <aether_legacy:skyroot_plank>], [null, <aether_legacy:skyroot_plank>, null]]);
 recipes.addShaped(<signpost:blockbase>, [[<ore:holystone>, <ore:holystone>, <ore:holystone>], [null, <ore:enderpearl>, null], [<ore:holystone>, <ore:holystone>, <ore:holystone>]]);
 recipes.addShaped(<paraglider:paraglider:1>, [[<ore:stickWood>, <ore:leather>, <ore:stickWood>], [<ore:leather>, <ore:stickWood>, <ore:leather>], [<ore:stickWood>, null, <ore:stickWood>]]);
 recipes.addShaped(<tconstruct:slime_congealed:2>, [[<aether:swet_gel:2>, <aether:swet_gel:2>, <aether:swet_gel:2>], [<aether:swet_gel:2>, <aether:swet_gel:2>, <aether:swet_gel:2>], [<aether:swet_gel:2>, <aether:swet_gel:2>, <aether:swet_gel:2>]]);
@@ -107,6 +114,7 @@ recipes.addShaped(<aether:cloudwool_block> * 4, [[<minecraft:wool>, <minecraft:w
 // ================================================================================
 //#FURNACE
 furnace.addRecipe(<minecraft:stone>, <aether:agiosite>);
+furnace.addRecipe(<aether:agiosite>, <aether_legacy:holystone>);
 furnace.addRecipe(<minecraft:coal:1>, <ore:logSkyroot>);
 
 
@@ -137,3 +145,9 @@ mods.tconstruct.Melting.addRecipe(<liquid:water> * 2000, <aether:highlands_packe
 	recipes.replaceAllOccurences(<minecraft:snow>, <ore:blockSnow>);
 	recipes.replaceAllOccurences(<minecraft:ice>, <ore:blockIce>);
 	recipes.replaceAllOccurences(<minecraft:packed_ice>, <ore:blockPackedIce>);
+
+	
+// ================================================================================
+//#RENAMING
+	<aether_legacy:blue_berry>.displayName = "Blackberry";
+	<aether_legacy:enchanted_blueberry>.displayName = "Enchanted Blackberry";
