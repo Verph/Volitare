@@ -31,7 +31,9 @@
 			"dimension": {
 				"restriction": "whitelist",
 				"value": [
-					3
+					3,
+					4,
+					7
 				]
 			}
 		},
@@ -62,7 +64,9 @@
 			"dimension": {
 				"restriction": "whitelist",
 				"value": [
-					3
+					3,
+					4,
+					7
 				]
 			}
 		},
@@ -93,7 +97,9 @@
 			"dimension": {
 				"restriction": "whitelist",
 				"value": [
-					3
+					3,
+					4,
+					7
 				]
 			}
 		},
@@ -128,7 +134,9 @@
 			"dimension": {
 				"restriction": "whitelist",
 				"value": [
-					3
+					3,
+					4,
+					7
 				]
 			}
 		},
@@ -163,7 +171,9 @@
 			"dimension": {
 				"restriction": "whitelist",
 				"value": [
-					3
+					3,
+					4,
+					7
 				]
 			}
 		},
@@ -198,7 +208,9 @@
 			"dimension": {
 				"restriction": "whitelist",
 				"value": [
-					3
+					3,
+					4,
+					7
 				]
 			}
 		},
@@ -238,7 +250,9 @@
 			"dimension": {
 				"restriction": "whitelist",
 				"value": [
-					3
+					3,
+					4,
+					7
 				]
 			}
 		},
@@ -275,7 +289,9 @@
 			"dimension": {
 				"restriction": "whitelist",
 				"value": [
-					3
+					3,
+					4,
+					7
 				]
 			}
 		},
@@ -311,7 +327,9 @@
 			"dimension": {
 				"restriction": "whitelist",
 				"value": [
-					3
+					3,
+					4,
+					7
 				]
 			}
 		},
@@ -346,7 +364,47 @@
 			"dimension": {
 				"restriction": "whitelist",
 				"value": [
-					3
+					3,
+					4,
+					7
+				]
+			}
+		},
+		
+		"clay": {
+
+			"distribution": "uniform",
+			"generator": {
+				"block": "clay",
+				"material": "aether:holystone",
+				"cluster-size": 14
+			},
+			"cluster-count": 1,
+			"min-height": 40,
+			"max-height": 140,
+			"retrogen": false,
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{
+						"type": "id",
+						"entry": [
+							"aether:aether_highlands",
+							"aether:aether_magnetic_hills",
+							"aether:aether_arctic_peaks",
+							"aether:aether_forgotten_highlands",
+							"aether:aether_irradiated_forests",
+							"aether:aether_void"
+						]
+					}
+				]
+			},
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					3,
+					4,
+					7
 				]
 			}
 		},
@@ -548,6 +606,27 @@
 			},
 			"cluster-count": 8,
 			"min-height": 25,
+			"max-height": 256,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					5
+				]
+			}
+		},
+		
+		"clay": {
+
+			"distribution": "uniform",
+			"generator": {
+				"block": "clay",
+				"material": "aether_legacy:holystone",
+				"cluster-size": 20
+			},
+			"cluster-count": 2,
+			"min-height": 50,
 			"max-height": 256,
 			"retrogen": false,
 			"biome": "all",
