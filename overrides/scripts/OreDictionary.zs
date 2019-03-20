@@ -12,6 +12,12 @@ var stone = <ore:stone>;
 		<aether:agiosite>
 	]);
 	
+var blockMossy = <ore:blockMossy>;
+    blockMossy.addItems([
+		<aether_legacy:mossy_holystone>,
+		<aether:holystone:1>
+	]);
+	
 var slabStone = <ore:slabStone>;
     slabStone.addItems([
 		<aether:mossy_holystone_slab>,
@@ -143,6 +149,11 @@ var workbench = <ore:workbench>;
 		<aether:aether_crafting_table>
 	]);
 
+var craftingTableWood = <ore:craftingTableWood>;
+    craftingTableWood.addItems([
+		<aether:aether_crafting_table>
+	]);
+
 var chest = <ore:chest>;
     chest.addItems([
 		<aether:skyroot_chest>
@@ -267,8 +278,8 @@ var cropBlueberry = <ore:cropBlueberry>;
 		<aether:enchanted_blueberry>
 	]);
 
-var cropBlackberry = <ore:cropBlackberry>;
-    cropBlackberry.addItems([
+var cropCranberry = <ore:cropCranberry>;
+    cropCranberry.addItems([
 		<aether_legacy:blue_berry>,
 		<aether_legacy:enchanted_blueberry>
 	]);
@@ -549,6 +560,156 @@ var slimeballGreen = <ore:slimeballGreen>;
 var slimeballPurple = <ore:slimeballPurple>;
     slimeballPurple.addItems([
 		<aether:swet_gel:2>
+	]);
+	
+var gemAmbrosium = <ore:gemAmbrosium>;
+    gemAmbrosium.addItems([
+		<aether_legacy:ambrosium_shard>,
+		<aether:ambrosium_shard>
+	]);
+	
+var dustGravitite = <ore:dustGravitite>;
+    dustGravitite.addItems([
+		<aercloudengine:gravititedust>
+	]);
+	
+var dustArkenium = <ore:dustArkenium>;
+    dustArkenium.addItems([
+		<aercloudengine:arkeniumdust>
+	]);
+	
+var nuggetZanite = <ore:nuggetZanite>;
+    nuggetZanite.addItems([
+		<aercloudengine:zanitenugget>
+	]);
+	
+var nuggetAmbrosium = <ore:nuggetAmbrosium>;
+    nuggetAmbrosium.addItems([
+		<aercloudengine:ambrosiumnugget>
+	]);
+	
+var ingotIronZanite = <ore:ingotIronZanite>;
+    ingotIronZanite.addItems([
+		<minecraft:iron_ingot>,
+		<aercloudengine:zanitegear>
+	]);
+	
+var ingotIronArkenium = <ore:ingotIronArkenium>;
+    ingotIronArkenium.addItems([
+		<minecraft:iron_ingot>,
+		<aether:arkenium_strip>
+	]);
+	
+var plateAluminiumArkenium = <ore:ingotAluminiumArkenium>;
+    plateAluminiumArkenium.addItems([
+		<immersiveengineering:metal:1>,
+		<aether:arkenium>
+	]);
+	
+var ingotSteelGravitite = <ore:ingotSteelGravitite>;
+    ingotSteelGravitite.addItems([
+		<immersiveengineering:metal:8>,
+		<aether:gravitite_plate>
+	]);
+	
+var gearSkyroot = <ore:gearSkyroot>;
+    gearSkyroot.addItems([
+		<aercloudengine:skyrootgear>
+	]);
+	
+var gearWood = <ore:gearWood>;
+    gearWood.addItems([
+		<aercloudengine:skyrootgear>
+	]);
+	
+var gearHolystone = <ore:gearHolystone>;
+    gearHolystone.addItems([
+		<aercloudengine:holystonegear>
+	]);
+	
+var gearStone = <ore:gearStone>;
+    gearStone.addItems([
+		<aercloudengine:holystonegear>
+	]);
+	
+var gearZanite = <ore:gearZanite>;
+    gearZanite.addItems([
+		<aercloudengine:zanitegear>
+	]);
+	
+var gearArkenium = <ore:gearArkenium>;
+    gearArkenium.addItems([
+		<aercloudengine:arkeniumgear>
+	]);
+	
+var gearIron = <ore:gearIron>;
+    gearIron.addItems([
+		<aercloudengine:arkeniumgear>
+	]);
+	
+var gearGravitite = <ore:gearGravitite>;
+    gearGravitite.addItems([
+		<aercloudengine:gravititegear>
+	]);
+	
+var gearValkyrie = <ore:gearValkyrie>;
+    gearValkyrie.addItems([
+		<aercloudengine:valkyriegear>
+	]);
+	
+var plateGravitite = <ore:plateGravitite>;
+    plateGravitite.addItems([
+		<aether:gravitite_plate>
+	]);
+	
+var plateIronGravitite = <ore:plateIronGravitite>;
+    plateIronGravitite.addItems([
+		<aether:gravitite_plate>,
+		<minecraft:iron_ingot>
+	]);
+	
+var plateAluminiumGravitite = <ore:plateAluminiumGravitite>;
+    plateAluminiumGravitite.addItems([
+		<aether:gravitite_plate>,
+		<immersiveengineering:metal:1>
+	]);
+	
+var plateSteelGravitite = <ore:plateSteelGravitite>;
+    plateSteelGravitite.addItems([
+		<aether:gravitite_plate>,
+		<immersiveengineering:metal:38>
+	]);
+	
+var plateArkenium = <ore:plateArkenium>;
+    plateArkenium.addItems([
+		<aether:arkenium>
+	]);
+	
+var plateIronArkenium = <ore:plateIronArkenium>;
+    plateIronArkenium.addItems([
+		<aether:arkenium>,
+		<immersiveengineering:metal:39>
+	]);
+	
+var stickZanite = <ore:stickZanite>;
+    stickZanite.addItems([
+		<tconstruct:tool_rod>.withTag({Material: "zanite"})
+	]);
+	
+var stickArkenium = <ore:stickArkenium>;
+    stickArkenium.addItems([
+		<aercloudengine:arkeniumrod>
+	]);
+	
+var stickIronArkenium = <ore:stickIronArkenium>;
+    stickIronArkenium.addItems([
+		<aercloudengine:arkeniumrod>,
+		<immersiveengineering:material:1>
+	]);
+	
+var stickGravitite = <ore:stickGravitite>;
+    stickGravitite.addItems([
+		<tconstruct:tool_rod>.withTag({Material: "gravitite"})
 	]);
 	
 	

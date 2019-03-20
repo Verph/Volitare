@@ -82,5 +82,29 @@
 	"aether_legacy:aether_highlands"
 	],
     "result": "allow"
+  },
+  {
+    "mob": "lumen:ember",
+    "result": "allow"
+  },
+  {
+    "mob": "lumen:faerie",
+    "result": "allow"
+  },
+  {
+    "mob": "lumen:firefly",
+    "result": "allow"
+  },
+  {
+    "mob": "lumen:psi_firefly",
+    "result": "allow"
+  },
+  {
+    "mob": "lumen:rad_flame",
+    "result": "allow"
+  },
+  {
+    "mob": "lumen:will_o_wisp",
+    "result": "allow"
   }
 ]

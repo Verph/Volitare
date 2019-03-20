@@ -35,5 +35,90 @@
     "mob": "aether:aechor_plant",
     "item": "harvestcraft:cassavaitem",
     "itemcount": "0-1/0-2/0-3/0-4"
+  },
+  {
+    "mob": "aether_legacy:valkyrie_queen",
+    "item": "minecraft:elytra",
+    "itemcount": 1
+  },
+  {
+    "mob": "aether:aerbunny",
+    "item": "minecraft:bone",
+    "itemcount": "0-1/0-2/0-3/0-4"
+  },
+  {
+    "mob": "aether:aerwhale",
+    "item": "minecraft:bone",
+    "itemcount": "0-2/0-4/0-6/0-8"
+  },
+  {
+    "mob": "aether:burrukai",
+    "item": "minecraft:bone",
+    "itemcount": "0-2/0-4/0-6/0-8"
+  },
+  {
+    "mob": "aether:cockatrice",
+    "item": "minecraft:bone",
+    "itemcount": "0-2/0-4/0-6/0-8"
+  },
+  {
+    "mob": "aether:glactrix",
+    "item": "minecraft:bone",
+    "itemcount": "0-1/0-2/0-3/0-4"
+  },
+  {
+    "mob": "aether:kirrid",
+    "item": "minecraft:bone",
+    "itemcount": "0-2/0-4/0-6/0-8"
+  },
+  {
+    "mob": "aether:moa",
+    "item": "minecraft:bone",
+    "itemcount": "0-2/0-4/0-6/0-8"
+  },
+  {
+    "mob": "aether:sheepuff",
+    "item": "minecraft:bone",
+    "itemcount": "0-2/0-4/0-6/0-8"
+  },
+  {
+    "mob": "aether:taegore",
+    "item": "minecraft:bone",
+    "itemcount": "0-2/0-4/0-6/0-8"
+  },
+  {
+    "mob": "aether_legacy:aerbunny",
+    "item": "minecraft:bone",
+    "itemcount": "0-1/0-2/0-3/0-4"
+  },
+  {
+    "mob": "aether_legacy:moa",
+    "item": "minecraft:bone",
+    "itemcount": "0-2/0-4/0-6/0-8"
+  },
+  {
+    "mob": "aether_legacy:flying_cow",
+    "item": "minecraft:bone",
+    "itemcount": "0-2/0-4/0-6/0-8"
+  },
+  {
+    "mob": "aether_legacy:sheepuff",
+    "item": "minecraft:bone",
+    "itemcount": "0-2/0-4/0-6/0-8"
+  },
+  {
+    "mob": "aether_legacy:phyg",
+    "item": "minecraft:bone",
+    "itemcount": "0-2/0-4/0-6/0-8"
+  },
+  {
+    "mob": "aether_legacy:cockatrice",
+    "item": "minecraft:bone",
+    "itemcount": "0-2/0-4/0-6/0-8"
+  },
+  {
+    "mob": "aether_legacy:aerwhale",
+    "item": "minecraft:bone",
+    "itemcount": "0-2/0-4/0-6/0-8"
   }
 ]

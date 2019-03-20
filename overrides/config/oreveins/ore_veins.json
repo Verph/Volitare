@@ -1,0 +1,266 @@
+{
+	"uranium_ore":{
+		"type":"cluster",
+		"ore": [
+			{
+			  "block": "immersiveengineering:ore",
+			  "meta": 5
+			}
+		]
+		"stone":"aether:holystone",
+		"rarity":150,
+		"min_y":8,
+		"max_y":50,
+		"density":80,
+		"vertical_size":10,
+		"horizontal_size":10,
+		"dimensions":3,
+		"biomes": [
+			"aether:aether_irradiated_forests"
+		]
+	},
+	"nickel_ore":{
+		"type":"cluster",
+		"ore": [
+			{
+			  "block": "immersiveengineering:ore",
+			  "meta": 4
+			}
+		]
+		"stone":"aether:holystone",
+		"rarity":130,
+		"min_y":8,
+		"max_y":64,
+		"density":120,
+		"vertical_size":20,
+		"horizontal_size":10,
+		"dimensions":3,
+		"biomes": [
+			"aether:aether_irradiated_forests",
+			"aether:aether_arctic_peaks"
+		]
+	},
+	"silver_ore":{
+		"type":"cluster",
+		"ore": [
+			{
+			  "block": "immersiveengineering:ore",
+			  "meta": 3
+			}
+		]
+		"stone":"aether:holystone",
+		"rarity":100,
+		"min_y":8,
+		"max_y":50,
+		"density":80,
+		"vertical_size":20,
+		"horizontal_size":10,
+		"dimensions":3,
+		"biomes": [
+			"aether:aether_arctic_peaks",
+			"aether:aether_highlands"
+		]
+	},
+	"lead_ore":{
+		"type":"cluster",
+		"ore": [
+			{
+			  "block": "immersiveengineering:ore",
+			  "meta": 2
+			}
+		]
+		"stone":"aether:holystone",
+		"rarity":100,
+		"min_y":8,
+		"max_y":80,
+		"density":100,
+		"vertical_size":20,
+		"horizontal_size":20,
+		"dimensions":3,
+		"biomes": [
+			"aether:aether_irradiated_forests",
+			"aether:aether_highlands"
+		]
+	},
+	"aluminum_ore":{
+		"type":"cluster",
+		"ore": [
+			{
+			  "block": "immersiveengineering:ore",
+			  "meta": 1
+			}
+		]
+		"stone":"aether:holystone",
+		"rarity":90,
+		"min_y":8,
+		"max_y":64,
+		"density":120,
+		"vertical_size":20,
+		"horizontal_size":10,
+		"dimensions":3,
+		"biomes": [
+			"aether:aether_arctic_peaks",
+			"aether:aether_highlands"
+		]
+	},
+	"copper_ore":{
+		"type":"cluster",
+		"ore": [
+			{
+			  "block": "immersiveengineering:ore",
+			  "meta": 0
+			}
+		]
+		"stone":"aether:holystone",
+		"rarity":120,
+		"min_y":8,
+		"max_y":80,
+		"density":120,
+		"vertical_size":30,
+		"horizontal_size":10,
+		"dimensions":3,
+		"biomes": [
+			"aether:aether_magnetic_hills",
+			"aether:aether_forgotten_highlands",
+			"aether:aether_highlands"
+		]
+	},
+	"iron_ore":{
+		"type":"cluster",
+		"ore": [
+			{
+			  "block": "minecraft:iron_ore",
+			  "meta": 0
+			}
+		]
+		"stone":"aether:holystone",
+		"rarity":40,
+		"min_y":8,
+		"max_y":64,
+		"density":120,
+		"vertical_size":30,
+		"horizontal_size":10,
+		"dimensions":3,
+		"indicator": {
+			"blocks": {
+				"block": "aether:valkyrie_grass",
+				"meta": 2
+			},
+		"rarity":3,
+		"max_depth":100
+		},
+		"biomes": [
+			"aether:aether_magnetic_hills",
+			"aether:aether_irradiated_forests"
+		]
+	},
+	"gold_ore":{
+		"type":"sphere",
+		"ore": [
+			{
+			  "block": "minecraft:gold_ore",
+			  "meta": 0
+			}
+		]
+		"stone":"aether:holystone",
+		"rarity":40,
+		"min_y":8,
+		"max_y":50,
+		"density":120,
+		"vertical_size":20,
+		"horizontal_size":10,
+		"dimensions":3,
+		"biomes": [
+			"aether:aether_magnetic_hills",
+			"aether:aether_irradiated_forests",
+			"aether:aether_arctic_peaks"
+		]
+	},
+	"coal_ore":{
+		"type":"cluster",
+		"stone":"aether:holystone",
+		"rarity":30,
+		"min_y":32,
+		"max_y":128,
+		"density":80,
+		"vertical_size":15,
+		"horizontal_size":30,
+		"dimensions":3,
+		"ore":[
+			{
+				"block":"minecraft:coal_ore",
+				"weight":39
+			},
+			{
+				"block":"minecraft:diamond_ore",
+				"weight":1
+			}
+		],
+		"indicator":{
+			"blocks":"aether:aether_flower",
+			"meta":2
+		}		
+		"rarity":2,
+		"max_depth":100
+	},
+	"redstone_ore":{
+		"type":"cluster",
+		"ore":"minecraft:redstone_ore",
+		"stone":"aether:holystone",
+		"clusters":8,
+		"rarity":40,
+		"min_y":0,
+		"max_y":40,
+		"density":20,
+		"vertical_size":10,
+		"horizontal_size":20,
+		"dimensions":3
+	},
+	"lapis_ore":{
+		"type":"cluster",
+		"ore":"minecraft:lapis_ore",
+		"stone":"aether:holystone",
+		"rarity":60,
+		"min_y":8,
+		"max_y":50,
+		"density":120,
+		"vertical_size":20,
+		"horizontal_size":10,
+		"dimensions":3
+	},
+	"emerald_ore":{
+		"type":"cluster",
+		"ore":"minecraft:emerald_ore",
+		"stone":"aether:holystone",
+		"rarity":15,
+		"count":3,
+		"min_y":0,
+		"max_y":32,
+		"density":150,
+		"vertical_size":5,
+		"horizontal_size":10,
+		"dimensions":3
+	},
+	"quartz_ore":{
+		"type":"cluster",
+		"ore": [
+			{
+			  "block": "minecraft:quartz_ore",
+			  "meta": 0
+			}
+		]
+		"stone":"aether:holystone",
+		"rarity":100,
+		"min_y":8,
+		"max_y":64,
+		"density":80,
+		"vertical_size":10,
+		"horizontal_size":10,
+		"dimensions":3,
+		"biomes": [
+			"aether:aether_forgotten_highlands",
+			"aether:aether_magnetic_hills",
+			"aether:aether_arctic_peaks"
+		]
+	}
+}

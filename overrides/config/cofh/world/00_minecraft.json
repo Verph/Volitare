@@ -1,5 +1,5 @@
 {
-	"priority": 1000000000000,
+	"priority": 100,
 	"populate": {
 		"coal": {
 			"distribution": "uniform",
@@ -12,28 +12,11 @@
 			"min-height": 0,
 			"max-height": 144,
 			"retrogen": false,
-			"biome": {
-				"restriction": "whitelist",
-				"value": [
-					{
-						"type": "id",
-						"entry": [
-							"aether:aether_highlands",
-							"aether:aether_magnetic_hills",
-							"aether:aether_arctic_peaks",
-							"aether:aether_forgotten_highlands",
-							"aether:aether_irradiated_forests",
-							"aether:aether_void"
-						]
-					}
-				]
-			},
+			"biome": "all",
 			"dimension": {
 				"restriction": "whitelist",
 				"value": [
-					3,
-					4,
-					7
+					3
 				]
 			}
 		},
@@ -64,9 +47,7 @@
 			"dimension": {
 				"restriction": "whitelist",
 				"value": [
-					3,
-					4,
-					7
+					3
 				]
 			}
 		},
@@ -97,9 +78,7 @@
 			"dimension": {
 				"restriction": "whitelist",
 				"value": [
-					3,
-					4,
-					7
+					3
 				]
 			}
 		},
@@ -115,28 +94,11 @@
 			"min-height": 0,
 			"max-height": 35,
 			"retrogen": false,
-			"biome": {
-				"restriction": "whitelist",
-				"value": [
-					{
-						"type": "id",
-						"entry": [
-							"aether:aether_highlands",
-							"aether:aether_magnetic_hills",
-							"aether:aether_arctic_peaks",
-							"aether:aether_forgotten_highlands",
-							"aether:aether_irradiated_forests",
-							"aether:aether_void"
-						]
-					}
-				]
-			},
+			"biome": "all",
 			"dimension": {
 				"restriction": "whitelist",
 				"value": [
-					3,
-					4,
-					7
+					3
 				]
 			}
 		},
@@ -152,28 +114,11 @@
 			"min-height": 0,
 			"max-height": 35,
 			"retrogen": false,
-			"biome": {
-				"restriction": "whitelist",
-				"value": [
-					{
-						"type": "id",
-						"entry": [
-							"aether:aether_highlands",
-							"aether:aether_magnetic_hills",
-							"aether:aether_arctic_peaks",
-							"aether:aether_forgotten_highlands",
-							"aether:aether_irradiated_forests",
-							"aether:aether_void"
-						]
-					}
-				]
-			},
+			"biome": "all",
 			"dimension": {
 				"restriction": "whitelist",
 				"value": [
-					3,
-					4,
-					7
+					3
 				]
 			}
 		},
@@ -189,28 +134,11 @@
 			"center-height": 20,
 			"spread": 16,
 			"retrogen": false,
-			"biome": {
-				"restriction": "whitelist",
-				"value": [
-					{
-						"type": "id",
-						"entry": [
-							"aether:aether_highlands",
-							"aether:aether_magnetic_hills",
-							"aether:aether_arctic_peaks",
-							"aether:aether_forgotten_highlands",
-							"aether:aether_irradiated_forests",
-							"aether:aether_void"
-						]
-					}
-				]
-			},
+			"biome": "all",
 			"dimension": {
 				"restriction": "whitelist",
 				"value": [
-					3,
-					4,
-					7
+					3
 				]
 			}
 		},
@@ -231,28 +159,11 @@
 			"min-height": 4,
 			"max-height": 30,
 			"retrogen": false,
-			"biome": {
-				"restriction": "whitelist",
-				"value": [
-					{
-						"type": "id",
-						"entry": [
-							"aether:aether_highlands",
-							"aether:aether_magnetic_hills",
-							"aether:aether_arctic_peaks",
-							"aether:aether_forgotten_highlands",
-							"aether:aether_irradiated_forests",
-							"aether:aether_void"
-						]
-					}
-				]
-			},
+			"biome": "all",
 			"dimension": {
 				"restriction": "whitelist",
 				"value": [
-					3,
-					4,
-					7
+					3
 				]
 			}
 		},
@@ -270,28 +181,11 @@
 			"min-height": 8,
 			"max-height": 100,
 			"retrogen": false,
-			"biome": {
-				"restriction": "whitelist",
-				"value": [
-					{
-						"type": "id",
-						"entry": [
-							"aether:aether_highlands",
-							"aether:aether_magnetic_hills",
-							"aether:aether_arctic_peaks",
-							"aether:aether_forgotten_highlands",
-							"aether:aether_irradiated_forests",
-							"aether:aether_void"
-						]
-					}
-				]
-			},
+			"biome": "all",
 			"dimension": {
 				"restriction": "whitelist",
 				"value": [
-					3,
-					4,
-					7
+					3
 				]
 			}
 		},
@@ -308,28 +202,11 @@
 			"min-height": 0,
 			"max-height": 150,
 			"retrogen": false,
-			"biome": {
-				"restriction": "whitelist",
-				"value": [
-					{
-						"type": "id",
-						"entry": [
-							"aether:aether_highlands",
-							"aether:aether_magnetic_hills",
-							"aether:aether_arctic_peaks",
-							"aether:aether_forgotten_highlands",
-							"aether:aether_irradiated_forests",
-							"aether:aether_void"
-						]
-					}
-				]
-			},
+			"biome": "all",
 			"dimension": {
 				"restriction": "whitelist",
 				"value": [
-					3,
-					4,
-					7
+					3
 				]
 			}
 		},
@@ -345,28 +222,11 @@
 			"min-height": 0,
 			"max-height": 150,
 			"retrogen": false,
-			"biome": {
-				"restriction": "whitelist",
-				"value": [
-					{
-						"type": "id",
-						"entry": [
-							"aether:aether_highlands",
-							"aether:aether_magnetic_hills",
-							"aether:aether_arctic_peaks",
-							"aether:aether_forgotten_highlands",
-							"aether:aether_irradiated_forests",
-							"aether:aether_void"
-						]
-					}
-				]
-			},
+			"biome": "all",
 			"dimension": {
 				"restriction": "whitelist",
 				"value": [
-					3,
-					4,
-					7
+					3
 				]
 			}
 		},
@@ -383,18 +243,36 @@
 			"min-height": 40,
 			"max-height": 140,
 			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					3
+				]
+			}
+		},
+
+		"uranium": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "immersiveengineering:ore",
+					"metadata": 5
+				},
+				"material": "aether:holystone",
+				"cluster-size": 9
+			},
+			"cluster-count": 0,
+			"min-height": 0,
+			"max-height": 40,
+			"retrogen": false,
 			"biome": {
 				"restriction": "whitelist",
 				"value": [
 					{
 						"type": "id",
 						"entry": [
-							"aether:aether_highlands",
-							"aether:aether_magnetic_hills",
-							"aether:aether_arctic_peaks",
-							"aether:aether_forgotten_highlands",
-							"aether:aether_irradiated_forests",
-							"aether:aether_void"
+							"aether:aether_irradiated_forests"
 						]
 					}
 				]
@@ -402,9 +280,176 @@
 			"dimension": {
 				"restriction": "whitelist",
 				"value": [
-					3,
-					4,
-					7
+					3
+				]
+			}
+		},
+
+		"nickel": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "immersiveengineering:ore",
+					"metadata": 4
+				},
+				"material": "aether:holystone",
+				"cluster-size": 9
+			},
+			"cluster-count": 0,
+			"min-height": 0,
+			"max-height": 75,
+			"retrogen": false,
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{
+						"type": "id",
+						"entry": [
+							"aether:aether_irradiated_forests",
+							"aether:aether_magnetic_hills"
+						]
+					}
+				]
+			},
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					3
+				]
+			}
+		},
+
+		"silver": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "immersiveengineering:ore",
+					"metadata": 3
+				},
+				"material": "aether:holystone",
+				"cluster-size": 9
+			},
+			"cluster-count": 0,
+			"min-height": 0,
+			"max-height": 70,
+			"retrogen": false,
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{
+						"type": "id",
+						"entry": [
+							"aether:aether_forgotten_highlands",
+							"aether:aether_highlands"
+						]
+					}
+				]
+			},
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					3
+				]
+			}
+		},
+
+		"lead": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "immersiveengineering:ore",
+					"metadata": 2
+				},
+				"material": "aether:holystone",
+				"cluster-size": 9
+			},
+			"cluster-count": 0,
+			"min-height": 0,
+			"max-height": 80,
+			"retrogen": false,
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{
+						"type": "id",
+						"entry": [
+							"aether:aether_irradiated_forests"
+						]
+					}
+				]
+			},
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					3
+				]
+			}
+		},
+
+		"aluminum": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "immersiveengineering:ore",
+					"metadata": 1
+				},
+				"material": "aether:holystone",
+				"cluster-size": 9
+			},
+			"cluster-count": 0,
+			"min-height": 0,
+			"max-height": 80,
+			"retrogen": false,
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{
+						"type": "id",
+						"entry": [
+							"aether:aether_arctic_peaks",
+							"aether:aether_highlands"
+						]
+					}
+				]
+			},
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					3
+				]
+			}
+		},
+
+		"copper": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "immersiveengineering:ore",
+					"metadata": 0
+				},
+				"material": "aether:holystone",
+				"cluster-size": 9
+			},
+			"cluster-count": 0,
+			"min-height": 0,
+			"max-height": 80,
+			"retrogen": false,
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{
+						"type": "id",
+						"entry": [
+							"aether:aether_forgotten_highlands",
+							"aether:aether_highlands"
+						]
+					}
+				]
+			},
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					3
 				]
 			}
 		},

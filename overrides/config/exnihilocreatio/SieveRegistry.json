@@ -1827,6 +1827,16 @@
       "meshLevel": 2
     },
     {
+      "drop": "minecraft:dye:4",
+      "chance": 0.075,
+      "meshLevel": 3
+    },
+    {
+      "drop": "minecraft:dye:4",
+      "chance": 0.15,
+      "meshLevel": 4
+    },
+    {
       "drop": "minecraft:diamond:-1",
       "chance": 0.008,
       "meshLevel": 3
@@ -1994,6 +2004,81 @@
     {
       "drop": "exnihilocreatio:item_ore_platinum:0",
       "chance": 0.12,
+      "meshLevel": 4
+    },
+    {
+      "drop": "aercloudengine:valkyrienugget",
+      "chance": 0.02,
+      "meshLevel": 2
+    },
+    {
+      "drop": "aercloudengine:valkyrienugget",
+      "chance": 0.04,
+      "meshLevel": 3
+    },
+    {
+      "drop": "aercloudengine:valkyrienugget",
+      "chance": 0.12,
+      "meshLevel": 4
+    },
+    {
+      "drop": "aercloudengine:gravititenugget",
+      "chance": 0.02,
+      "meshLevel": 2
+    },
+    {
+      "drop": "aercloudengine:gravititenugget",
+      "chance": 0.04,
+      "meshLevel": 3
+    },
+    {
+      "drop": "aercloudengine:gravititenugget",
+      "chance": 0.12,
+      "meshLevel": 4
+    },
+    {
+      "drop": "aercloudengine:arkeniumnugget",
+      "chance": 0.05,
+      "meshLevel": 2
+    },
+    {
+      "drop": "aercloudengine:arkeniumnugget",
+      "chance": 0.075,
+      "meshLevel": 3
+    },
+    {
+      "drop": "aercloudengine:arkeniumnugget",
+      "chance": 0.15,
+      "meshLevel": 4
+    },
+    {
+      "drop": "aercloudengine:zanitenugget",
+      "chance": 0.05,
+      "meshLevel": 2
+    },
+    {
+      "drop": "aercloudengine:zanitenugget",
+      "chance": 0.075,
+      "meshLevel": 3
+    },
+    {
+      "drop": "aercloudengine:zanitenugget",
+      "chance": 0.15,
+      "meshLevel": 4
+    },
+    {
+      "drop": "aercloudengine:ambrosiumnugget",
+      "chance": 0.09,
+      "meshLevel": 2
+    },
+    {
+      "drop": "aercloudengine:ambrosiumnugget",
+      "chance": 0.11,
+      "meshLevel": 3
+    },
+    {
+      "drop": "aercloudengine:ambrosiumnugget",
+      "chance": 0.15,
       "meshLevel": 4
     }
   ],
@@ -2521,6 +2606,11 @@
     },
     {
       "drop": "minecraft:pumpkin_seeds:-1",
+      "chance": 0.35,
+      "meshLevel": 1
+    },
+    {
+      "drop": "minecraft:beetroot_seeds:-1",
       "chance": 0.35,
       "meshLevel": 1
     },

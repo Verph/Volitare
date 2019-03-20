@@ -12,6 +12,15 @@
 
 // ================================================================================
 //#MARKER REMOVE
+recipes.remove(<aether_legacy:skyroot_bucket>);
+recipes.remove(<aether:skyroot_bucket>);
+recipes.remove(<armourers_workshop:tile.colour-mixer>);
+recipes.remove(<armourers_workshop:tile.skinning-table>);
+recipes.remove(<armourers_workshop:tile.dye-table>);
+recipes.remove(<armourers_workshop:tile.hologram-projector>);
+recipes.remove(<armourers_workshop:tile.global-skin-library>);
+recipes.remove(<armourers_workshop:tile.skin-library>);
+recipes.remove(<aether:arkenium_strip>);
 recipes.remove(<aether:taegore_hide_helmet>);
 recipes.remove(<aether:taegore_hide_chestplate>);
 recipes.remove(<aether:taegore_hide_leggings>);
@@ -55,9 +64,20 @@ recipes.removeShaped(<minecraft:chest>, [[<aether_legacy:skyroot_plank>, <aether
 
 // ================================================================================
 //#MARKER ADD SHAPELESS
+recipes.addShapeless(<minecraft:dye>, [<ore:charcoal>, <ore:petalAechor>, <ore:petalAechor>, <ore:charcoal>]);
+recipes.addShapeless(<aercloudengine:arkeniumnugget> * 9, [<aether:arkenium>]);
+recipes.addShapeless(<aercloudengine:gravititenugget> * 9, [<aether:gravitite_plate>]);
+recipes.addShapeless(<aercloudengine:gravititedust>, [<ore:oreGravitite>, <immersiveengineering:tool>.transformDamage(1)]);
+recipes.addShapeless(<aercloudengine:arkeniumdust>, [<aether:arkenium_ore>, <immersiveengineering:tool>.transformDamage(1)]);
+recipes.addShapeless(<aercloudengine:ambrosiumnugget>, [<ore:gemAmbrosium>, <immersiveengineering:tool>.transformDamage(1)]);
+recipes.addShapeless(<aercloudengine:zanitenugget>, [<ore:gemZanite>, <immersiveengineering:tool>.transformDamage(1)]);
+recipes.addShapeless(<aether:arkenium_strip> * 4, [<aether:arkenium>, <immersiveengineering:tool:1>.transformDamage(1)]);
+recipes.addShapeless(<aether:holystone:1>, [<aether:holystone>, <ore:vine>]);
+recipes.addShapeless(<aether_legacy:mossy_holystone>, [<aether_legacy:holystone>, <ore:vine>]);
+recipes.addShapeless(<aether:secret_skyroot_trapdoor>, [<aether:skyroot_trapdoor>]);
+recipes.addShapeless(<aether:secret_skyroot_door_item>, [<aether:skyroot_door_item>]);
 recipes.addShapeless(<aether_legacy:skyroot_bucket>, [<aether:skyroot_bucket>]);
 recipes.addShapeless(<aether:skyroot_bucket>, [<aether_legacy:skyroot_bucket>]);
-recipes.addShapeless(<minecraft:dye>, [<minecraft:coal:1>, <ore:petalAechor>]);
 recipes.addShapeless(<minecraft:string> * 2, [<aether:cloudtwine>, <aether:cloudtwine>]);
 recipes.addShapeless(<minecraft:blaze_rod>, [<minecraft:blaze_powder>, <minecraft:blaze_powder>]);
 recipes.addShapeless(<minecraft:chest>, [<aether:skyroot_chest>]);
@@ -81,6 +101,25 @@ recipes.addShapeless(<minecraft:wool> * 4, [<aether:cloudwool_block>, <aether:cl
 
 // ================================================================================
 //#MARKER ADD SHAPED
+recipes.addShaped(<aercloudengine:arkeniumrod> * 4, [[<ore:plateArkenium>], [<ore:plateArkenium>]]);
+recipes.addShaped(<aercloudengine:valkyriegear>, [[null, <ore:ingotValkyrie>, null], [<ore:ingotValkyrie>, null, <ore:ingotValkyrie>], [null, <ore:ingotValkyrie>, null]]);
+recipes.addShaped(<aercloudengine:gravititegear>, [[null, <aether:gravitite_plate>, null], [<aether:gravitite_plate>, null, <aether:gravitite_plate>], [null, <aether:gravitite_plate>, null]]);
+recipes.addShaped(<aercloudengine:arkeniumgear>, [[null, <aether:arkenium>, null], [<aether:arkenium>, null, <aether:arkenium>], [null, <aether:arkenium>, null]]);
+recipes.addShaped(<aercloudengine:zanitegear>, [[null, <ore:gemZanite>, null], [<ore:gemZanite>, <aercloudengine:skyrootgear>, <ore:gemZanite>], [null, <ore:gemZanite>, null]]);
+recipes.addShaped(<aercloudengine:holystonegear>, [[null, <ore:holystone>, null], [<ore:holystone>, null, <ore:holystone>], [null, <ore:holystone>, null]]);
+recipes.addShaped(<aercloudengine:skyrootgear>, [[null, <ore:stickSkyroot>, null], [<ore:stickSkyroot>, null, <ore:stickSkyroot>], [null, <ore:stickSkyroot>, null]]);
+recipes.addShaped(<aether:zanite_gemstone>, [[<aercloudengine:zanitenugget>, <aercloudengine:zanitenugget>], [<aercloudengine:zanitenugget>, <aercloudengine:zanitenugget>]]);
+recipes.addShaped(<aether:ambrosium_shard>, [[<aercloudengine:ambrosiumnugget>, <aercloudengine:ambrosiumnugget>], [<aercloudengine:ambrosiumnugget>, <aercloudengine:ambrosiumnugget>]]);
+recipes.addShaped(<immersiveengineering:material:5>, [[<aether:cloudwool_block>, <aether:cloudwool_block>, <aether:cloudwool_block>], [<aether:cloudwool_block>, <ore:stickWood>, <aether:cloudwool_block>], [<aether:cloudwool_block>, <aether:cloudwool_block>, <aether:cloudwool_block>]]);
+recipes.addShaped(<minecraft:elytra>, [[<ore:stickWood>, <aether:cloudtwine>, <ore:stickWood>], [<ore:ingotValkyrie>, <aether_legacy:agility_cape>, <ore:ingotValkyrie>], [<ore:featherGold>, null, <ore:featherGold>]]);
+recipes.addShaped(<immersiveengineering:tool>, [[null, <aether:arkenium>, <ore:string>], [null, <ore:stickWood>, <aether:arkenium>], [<ore:stickWood>, null, null]]);
+recipes.addShaped(<immersiveengineering:tool:1>, [[<ore:stickWood>, <aether:arkenium>], [null, <ore:stickWood>]]);
+recipes.addShaped(<aether:quicksoil_glass_decorative>, [[null, <ore:plankSkyroot>, null], [<ore:plankSkyroot>, <aether:quicksoil_glass>, <ore:plankSkyroot>], [null, <ore:plankSkyroot>, null]]);
+recipes.addShaped(<aether:quicksoil_glass_decorative:1>, [[null, <aether:arkenium_strip>, null], [<aether:arkenium_strip>, <aether:quicksoil_glass>, <aether:arkenium_strip>], [null, <aether:arkenium_strip>, null]]);
+recipes.addShaped(<aether:scatterglass_decorative>, [[null, <ore:plankSkyroot>, null], [<ore:plankSkyroot>, <aether:scatterglass>, <ore:plankSkyroot>], [null, <ore:plankSkyroot>, null]]);
+recipes.addShaped(<aether:scatterglass_decorative:1>, [[null, <aether:arkenium_strip>, null], [<aether:arkenium_strip>, <aether:scatterglass>, <aether:arkenium_strip>], [null, <aether:arkenium_strip>, null]]);
+recipes.addShaped(<aether:crude_scatterglass_decorative>, [[null, <ore:plankSkyroot>, null], [<ore:plankSkyroot>, <aether:crude_scatterglass>, <ore:plankSkyroot>], [null, <ore:plankSkyroot>, null]]);
+recipes.addShaped(<aether:crude_scatterglass_decorative:1>, [[null, <aether:arkenium_strip>, null], [<aether:arkenium_strip>, <aether:crude_scatterglass>, <aether:arkenium_strip>], [null, <aether:arkenium_strip>, null]]);
 recipes.addShaped(<aether:skyroot_bucket>, [[<ore:skyrootplanks>, null, <ore:skyrootplanks>], [<ore:skyrootplanks>, null, <ore:skyrootplanks>], [null, <ore:skyrootplanks>, null]]);
 recipes.addShaped(<aether_legacy:skyroot_bucket>, [[<aether_legacy:skyroot_plank>, null, <aether_legacy:skyroot_plank>], [<aether_legacy:skyroot_plank>, null, <aether_legacy:skyroot_plank>], [null, <aether_legacy:skyroot_plank>, null]]);
 recipes.addShaped(<signpost:blockbase>, [[<ore:holystone>, <ore:holystone>, <ore:holystone>], [null, <ore:enderpearl>, null], [<ore:holystone>, <ore:holystone>, <ore:holystone>]]);
@@ -116,6 +155,10 @@ recipes.addShaped(<aether:cloudwool_block> * 4, [[<minecraft:wool>, <minecraft:w
 furnace.addRecipe(<minecraft:stone>, <aether:agiosite>);
 furnace.addRecipe(<aether:agiosite>, <aether_legacy:holystone>);
 furnace.addRecipe(<minecraft:coal:1>, <ore:logSkyroot>);
+furnace.addRecipe(<aether:fried_moa_egg>, <aether_legacy:moa_egg>.withTag({typeId: 0}));
+furnace.addRecipe(<aether:fried_moa_egg>, <aether_legacy:moa_egg>.withTag({typeId: 1}));
+furnace.addRecipe(<aether:fried_moa_egg>, <aether_legacy:moa_egg>.withTag({typeId: 2}));
+furnace.addRecipe(<aether:fried_moa_egg>, <aether_legacy:moa_egg>.withTag({typeId: 3}));
 
 
 // ================================================================================
@@ -133,6 +176,13 @@ mods.tconstruct.Melting.addRecipe(<liquid:water> * 1000, <aether:highlands_snow>
 mods.tconstruct.Melting.addRecipe(<liquid:water> * 1000, <aether:highlands_ice>, 0);
 mods.tconstruct.Melting.addRecipe(<liquid:water> * 2000, <aether:highlands_packed_ice>, 0);
 
+//mods.tconstruct.Melting.addRecipe(ILiquidStack output, IIngredient input, @Optional int temp);
+mods.tconstruct.Melting.addRecipe(<liquid:valkyrie> * 16, <aercloudengine:valkyrienugget>, 475);
+
+mods.tconstruct.Melting.addRecipe(<liquid:valkyrie> * 16, <aercloudengine:valkyrienugget>, 475);
+mods.tconstruct.Melting.addRecipe(<liquid:valkyrie> * 576, <aercloudengine:valkyriegear>, 650);
+mods.tconstruct.Melting.addRecipe(<liquid:gravitite> * 576, <aercloudengine:gravititegear>, 600);
+mods.tconstruct.Melting.addRecipe(<liquid:gravitite> * 144, <aercloudengine:gravititedust>, 600);
 
 // ================================================================================
 //#REPLACEMENT
@@ -145,9 +195,61 @@ mods.tconstruct.Melting.addRecipe(<liquid:water> * 2000, <aether:highlands_packe
 	recipes.replaceAllOccurences(<minecraft:snow>, <ore:blockSnow>);
 	recipes.replaceAllOccurences(<minecraft:ice>, <ore:blockIce>);
 	recipes.replaceAllOccurences(<minecraft:packed_ice>, <ore:blockPackedIce>);
+	
+	
+	//recipes.replaceAllOccurences(<ore:stickIron>, <ore:stickArkenium>);
+	//recipes.replaceAllOccurences(<ore:ingotIron>, <ore:gearArkenium>);
+	//recipes.replaceAllOccurences(<ore:plateIron>, <ore:plateArkenium>);
+	//recipes.replaceAllOccurences(<ore:stickSteel>, <ore:stickGravitite>);
+	//recipes.replaceAllOccurences(<ore:ingotSteel>, <ore:gearGravitite>);
+	//recipes.replaceAllOccurences(<ore:plateSteel>, <ore:plateGravitite>);
 
+	recipes.replaceAllOccurences(<ore:ingotIron>, <ore:gemZanite>, <immersiveengineering:metal_device0>);
+	recipes.replaceAllOccurences(<ore:ingotIron>, <ore:plateIronArkenium>, <immersiveengineering:metal_device0:1>);
+	recipes.replaceAllOccurences(<ore:ingotLead>, <ore:ingotIronZanite>, <immersiveengineering:metal_device0:1>);
+	recipes.replaceAllOccurences(<ore:ingotSteel>, <ore:ingotSteelGravitite>, <immersiveengineering:metal_device0:2>);
+	recipes.replaceAllOccurences(<ore:ingotAluminium>, <ore:plateAluminiumArkenium>, <immersiveengineering:metal_device0:2>);
+	recipes.replaceAllOccurences(<ore:ingotAluminum>, <ore:plateAluminiumArkenium>, <immersiveengineering:metal_device0:2>);
+	recipes.replaceAllOccurences(<ore:blockLead>, <ore:gearValkyrie>, <immersiveengineering:metal_device0:2>);
+	recipes.replaceAllOccurences(<ore:ingotIron>, <ore:ingotIronArkenium>, <immersiveengineering:metal_device1:1>);
+	recipes.replaceAllOccurences(<ore:ingotIron>, <ore:plateIronGravitite>, <immersiveengineering:metal_device1:2>);
+	recipes.replaceAllOccurences(<ore:ingotIron>, <ore:ingotIronArkenium>, <immersiveengineering:metal_device1:5>);
+	recipes.replaceAllOccurences(<ore:ingotAluminium>, <ore:blockEnchantedGravitite>, <immersiveengineering:metal_device1:8>);
+	recipes.replaceAllOccurences(<ore:ingotAluminum>, <ore:blockEnchantedGravitite>, <immersiveengineering:metal_device1:8>);
+	recipes.replaceAllOccurences(<ore:ingotIron>, <ore:ingotIronArkenium>, <immersiveengineering:metal_device1:9>);
+	recipes.replaceAllOccurences(<ore:ingotIron>, <ore:ingotIronArkenium>, <immersiveengineering:connector:2>);
+	recipes.replaceAllOccurences(<ore:ingotIron>, <ore:ingotIronArkenium>, <immersiveengineering:connector:3>);
+	recipes.replaceAllOccurences(<ore:ingotAluminium>, <ore:plateAluminiumGravitite>, <immersiveengineering:connector:4>);
+	recipes.replaceAllOccurences(<ore:ingotAluminum>, <ore:plateAluminiumGravitite>, <immersiveengineering:connector:4>);
+	recipes.replaceAllOccurences(<ore:ingotAluminium>, <ore:plateAluminiumGravitite>, <immersiveengineering:connector:5>);
+	recipes.replaceAllOccurences(<ore:ingotAluminum>, <ore:plateAluminiumGravitite>, <immersiveengineering:connector:5>);
+	recipes.replaceAllOccurences(<ore:ingotIron>, <ore:ingotIronArkenium>, <immersiveengineering:connector:7>);
+	recipes.replaceAllOccurences(<ore:ingotIron>, <ore:ingotIronArkenium>, <immersiveengineering:connector:8>);
+	recipes.replaceAllOccurences(<ore:ingotIron>, <ore:ingotIronArkenium>, <immersiveengineering:connector:10>);
+	recipes.replaceAllOccurences(<ore:ingotIron>, <ore:ingotIronArkenium>, <immersiveengineering:connector:11>);
+	recipes.replaceAllOccurences(<ore:ingotIron>, <ore:ingotIronArkenium>, <immersiveengineering:toolupgrade:12>);
+	recipes.replaceAllOccurences(<ore:ingotSteel>, <ore:gearGravitite>, <immersiveengineering:wooden_device1>);
+	recipes.replaceAllOccurences(<ore:ingotIron>, <ore:gearGravitite>, <immersiveengineering:wooden_device1:1>);
+	recipes.replaceAllOccurences(<ore:ingotIron>, <ore:ingotIronZanite>, <immersiveengineering:wooden_device0:3>);
+	recipes.replaceAllOccurences(<ore:ingotIron>, <ore:ingotIronZanite>, <immersiveengineering:wooden_device0:6>);
+	recipes.replaceAllOccurences(<ore:ingotIron>, <ore:ingotIronZanite>, <immersiveengineering:wooden_device0:7>);
+	recipes.replaceAllOccurences(<ore:plateAluminum>, <ore:ingotIronArkenium>, <immersiveengineering:toolupgrade:10>);
+	recipes.replaceAllOccurences(<ore:plateAluminum>, <ore:ingotIronArkenium>, <immersiveengineering:toolbox>);
+	recipes.replaceAllOccurences(<ore:ingotIron>, <ore:ingotIronArkenium>, <immersiveengineering:metal_decoration0:3>);
+	recipes.replaceAllOccurences(<ore:ingotIron>, <ore:ingotIronArkenium>, <immersiveengineering:metal_decoration0:4>);
+	recipes.replaceAllOccurences(<ore:ingotSteel>, <ore:ingotSteelGravitite>, <immersiveengineering:metal_decoration0:5>);
+	recipes.replaceAllOccurences(<ore:ingotSteel>, <ore:ingotSteelGravitite>, <immersiveengineering:metal_decoration0:6>);
+	recipes.replaceAllOccurences(<ore:stickIron>, <ore:stickIronArkenium>, <immersiveengineering:wooden_device0:5>);
+	recipes.replaceAllOccurences(<ore:stickIron>, <ore:stickIronArkenium>, <immersiveengineering:toolupgrade:11>);
+	recipes.replaceAllOccurences(<ore:stickIron>, <ore:stickIronArkenium>, <immersiveengineering:maintenance_kit>);
+	recipes.replaceAllOccurences(<ore:stickIron>, <ore:stickIronArkenium>, <immersiveengineering:metal_ladder>);
+	recipes.replaceAllOccurences(<ore:stickIron>, <ore:stickIronArkenium>, <immersiveengineering:cloth_device:2>);
+	recipes.replaceAllOccurences(<ore:stickIron>, <ore:stickIronArkenium>, <immersiveengineering:earmuffs>);
+	
+	
+	
 	
 // ================================================================================
 //#RENAMING
-	<aether_legacy:blue_berry>.displayName = "Blackberry";
-	<aether_legacy:enchanted_blueberry>.displayName = "Enchanted Blackberry";
+	<aether_legacy:blue_berry>.displayName = "Cloudberry";
+	<aether_legacy:enchanted_blueberry>.displayName = "Enchanted Cloudberry";
