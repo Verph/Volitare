@@ -82,10 +82,10 @@ mods.immersiveengineering.MetalPress.addRecipe(<aercloudengine:arkeniumrod>, <or
 
 //Excavator
 
-mods.immersiveengineering.Excavator.addMineral("Ambrosium Ore", 100, 0.005, ["aether:ambrosium_ore"], [1.0]);
-mods.immersiveengineering.Excavator.addMineral("Zanite Ore", 100, 0.005, ["aether:zanite_ore"], [0.5]);
-mods.immersiveengineering.Excavator.addMineral("Arkenium Ore", 100, 0.005, ["aether:arkenium_ore"], [0.5]);
-mods.immersiveengineering.Excavator.addMineral("Gravitite Ore", 100, 0.005, ["aether:gravitite_ore"], [0.5]);
+mods.immersiveengineering.Excavator.addMineral("Ambrosium", 500, 0.005, ["aether:ambrosium_ore"], [0.5, 1.0], [0, 3, 5]);
+mods.immersiveengineering.Excavator.addMineral("Zanite", 400, 0.005, ["aether:zanite_ore"], [0.1, 0.5], [0, 3, 5]);
+mods.immersiveengineering.Excavator.addMineral("Arkenium", 300, 0.005, ["aether:arkenium_ore"], [0.1, 0.5], [0, 3, 5]);
+mods.immersiveengineering.Excavator.addMineral("Gravitite", 200, 0.005, ["aether:gravitite_ore"], [0.1, 0.5], [0, 3, 5]);
 
 //Alloy Kiln
 

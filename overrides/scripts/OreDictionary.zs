@@ -1,22 +1,22 @@
 // ================================================================================
 //#Ore Dictionary
 	
-var cobblestone = <ore:cobblestone>;
-    cobblestone.addItems([
-		<aether:holystone>,
-		<aether_legacy:holystone>
-	]);
+//var cobblestone = <ore:cobblestone>;
+//    cobblestone.addItems([
+//		<aether:holystone>,
+//		<aether_legacy:holystone>
+//	]);
 	
 var stone = <ore:stone>;
     stone.addItems([
 		<aether:agiosite>
 	]);
 	
-var blockMossy = <ore:blockMossy>;
-    blockMossy.addItems([
-		<aether_legacy:mossy_holystone>,
-		<aether:holystone:1>
-	]);
+//var blockMossy = <ore:blockMossy>;
+//    blockMossy.addItems([
+//		<aether_legacy:mossy_holystone>,
+//		<aether:holystone:1>
+//	]);
 	
 var slabStone = <ore:slabStone>;
     slabStone.addItems([

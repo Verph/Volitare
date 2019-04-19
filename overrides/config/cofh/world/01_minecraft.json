@@ -1,0 +1,720 @@
+{
+	"priority": 100,
+	"populate": {
+		"coal_ii": {
+			"distribution": "uniform",
+			"generator": {
+				"block": "coal_ore",
+				"material": [
+					"aether:holystone"
+				]
+				"cluster-size": 17
+			},
+			"cluster-count": 5,
+			"min-height": 0,
+			"max-height": 144,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					3
+				]
+			}
+		},
+
+		"iron_ii": {
+			"distribution": "uniform",
+			"generator": {
+				"block": "iron_ore",
+				"material": [
+					"aether:holystone"
+				]
+				"cluster-size": 9
+			},
+			"cluster-count": 10,
+			"min-height": 0,
+			"max-height": 85,
+			"retrogen": false,
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{
+						"type": "id",
+						"entry": [
+							"aether:aether_forgotten_highlands",
+							"aether:aether_magnetic_hills"
+						]
+					}
+				]
+			},
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					3
+				]
+			}
+		},
+
+		"gold_ii": {
+			"distribution": "uniform",
+			"generator": {
+				"block": "gold_ore",
+				"material": [
+					"aether:holystone"
+				]
+				"cluster-size": 9
+			},
+			"cluster-count": 7,
+			"min-height": 0,
+			"max-height": 60,
+			"retrogen": false,
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{
+						"type": "id",
+						"entry": [
+							"aether:aether_forgotten_highlands",
+							"aether:aether_magnetic_hills"
+						]
+					}
+				]
+			},
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					3
+				]
+			}
+		},
+
+		"redstone_ii": {
+			"distribution": "uniform",
+			"generator": {
+				"block": "redstone_ore",
+				"material": [
+					"aether:holystone"
+				]
+				"cluster-size": 8
+			},
+			"cluster-count": 2,
+			"min-height": 0,
+			"max-height": 35,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					3
+				]
+			}
+		},
+
+		"diamond_ii": {
+			"distribution": "uniform",
+			"generator": {
+				"block": "diamond_ore",
+				"material": [
+					"aether:holystone"
+				]
+				"cluster-size": 8
+			},
+			"cluster-count": 1,
+			"min-height": 0,
+			"max-height": 35,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					3
+				]
+			}
+		},
+
+		"lapis_ii": {
+			"distribution": "gaussian",
+			"generator": {
+				"block": "lapis_ore",
+				"material": [
+					"aether:holystone"
+				]
+				"cluster-size": 7
+			},
+			"cluster-count": 1,
+			"center-height": 20,
+			"spread": 16,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					3
+				]
+			}
+		},
+
+		"emerald_ii": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "emerald_ore"
+				},
+				"material": [
+					"aether:holystone"
+				]
+				"cluster-size": 1
+			},
+			"cluster-count": {
+				"min": 3,
+				"max": 6
+			},
+			"min-height": 4,
+			"max-height": 30,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					3
+				]
+			}
+		},
+
+		"quartz_ii": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "quartz_ore"
+				},
+				"material": [
+					"aether:holystone"
+				]
+				"cluster-size": 14
+			},
+			"cluster-count": 1,
+			"min-height": 8,
+			"max-height": 100,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					3
+				]
+			}
+		},
+		
+		"dirt_ii": {
+
+			"distribution": "uniform",
+			"generator": {
+				"block": "dirt",
+				"material": [
+					"aether:holystone"
+				]
+				"cluster-size": 20
+			},
+			"cluster-count": 2,
+			"min-height": 0,
+			"max-height": 150,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					3
+				]
+			}
+		},
+
+		"gravel_ii": {
+			"distribution": "uniform",
+			"generator": {
+				"block": "gravel",
+				"material": [
+					"aether:holystone"
+				]
+				"cluster-size": 30
+			},
+			"cluster-count": 2,
+			"min-height": 0,
+			"max-height": 150,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					3
+				]
+			}
+		},
+		
+		"clay_ii": {
+
+			"distribution": "uniform",
+			"generator": {
+				"block": "clay",
+				"material": [
+					"aether:holystone"
+				]
+				"cluster-size": 14
+			},
+			"cluster-count": 1,
+			"min-height": 40,
+			"max-height": 140,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					3
+				]
+			}
+		},
+
+		"uranium_ii": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "immersiveengineering:ore",
+					"metadata": 5
+				},
+				"material": [
+					"aether:holystone"
+				]
+				"cluster-size": 9
+			},
+			"cluster-count": 0,
+			"min-height": 0,
+			"max-height": 40,
+			"retrogen": false,
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{
+						"type": "id",
+						"entry": [
+							"aether:aether_irradiated_forests"
+						]
+					}
+				]
+			},
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					3
+				]
+			}
+		},
+
+		"nickel_ii": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "immersiveengineering:ore",
+					"metadata": 4
+				},
+				"material": [
+					"aether:holystone"
+				]
+				"cluster-size": 9
+			},
+			"cluster-count": 0,
+			"min-height": 0,
+			"max-height": 75,
+			"retrogen": false,
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{
+						"type": "id",
+						"entry": [
+							"aether:aether_irradiated_forests",
+							"aether:aether_magnetic_hills"
+						]
+					}
+				]
+			},
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					3
+				]
+			}
+		},
+
+		"silver_ii": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "immersiveengineering:ore",
+					"metadata": 3
+				},
+				"material": [
+					"aether:holystone"
+				]
+				"cluster-size": 9
+			},
+			"cluster-count": 0,
+			"min-height": 0,
+			"max-height": 70,
+			"retrogen": false,
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{
+						"type": "id",
+						"entry": [
+							"aether:aether_forgotten_highlands",
+							"aether:aether_highlands"
+						]
+					}
+				]
+			},
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					3
+				]
+			}
+		},
+
+		"lead_ii": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "immersiveengineering:ore",
+					"metadata": 2
+				},
+				"material": [
+					"aether:holystone"
+				]
+				"cluster-size": 9
+			},
+			"cluster-count": 0,
+			"min-height": 0,
+			"max-height": 80,
+			"retrogen": false,
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{
+						"type": "id",
+						"entry": [
+							"aether:aether_irradiated_forests"
+						]
+					}
+				]
+			},
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					3
+				]
+			}
+		},
+
+		"aluminum_ii": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "immersiveengineering:ore",
+					"metadata": 1
+				},
+				"material": [
+					"aether:holystone"
+				]
+				"cluster-size": 9
+			},
+			"cluster-count": 0,
+			"min-height": 0,
+			"max-height": 80,
+			"retrogen": false,
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{
+						"type": "id",
+						"entry": [
+							"aether:aether_arctic_peaks",
+							"aether:aether_highlands"
+						]
+					}
+				]
+			},
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					3
+				]
+			}
+		},
+
+		"copper_ii": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "immersiveengineering:ore",
+					"metadata": 0
+				},
+				"material": [
+					"aether:holystone"
+				]
+				"cluster-size": 9
+			},
+			"cluster-count": 0,
+			"min-height": 0,
+			"max-height": 80,
+			"retrogen": false,
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{
+						"type": "id",
+						"entry": [
+							"aether:aether_forgotten_highlands",
+							"aether:aether_highlands"
+						]
+					}
+				]
+			},
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					3
+				]
+			}
+		},
+		
+		"coal": {
+			"distribution": "uniform",
+			"generator": {
+				"block": "coal_ore",
+				"material": "aether_legacy:holystone",
+				"cluster-size": 17
+			},
+			"cluster-count": 5,
+			"min-height": 0,
+			"max-height": 144,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					5
+				]
+			}
+		},
+
+		"iron": {
+			"distribution": "uniform",
+			"generator": {
+				"block": "iron_ore",
+				"material": "aether_legacy:holystone",
+				"cluster-size": 9
+			},
+			"cluster-count": 5,
+			"min-height": 0,
+			"max-height": 80,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					5
+				]
+			}
+		},
+
+		"gold": {
+			"distribution": "uniform",
+			"generator": {
+				"block": "gold_ore",
+				"material": "aether_legacy:holystone",
+				"cluster-size": 9
+			},
+			"cluster-count": 3,
+			"min-height": 0,
+			"max-height": 45,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					5
+				]
+			}
+		},
+
+		"redstone": {
+			"distribution": "uniform",
+			"generator": {
+				"block": "redstone_ore",
+				"material": "aether_legacy:holystone",
+				"cluster-size": 8
+			},
+			"cluster-count": 2,
+			"min-height": 0,
+			"max-height": 30,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					5
+				]
+			}
+		},
+
+		"diamond": {
+			"distribution": "uniform",
+			"generator": {
+				"block": "diamond_ore",
+				"material": "aether_legacy:holystone",
+				"cluster-size": 8
+			},
+			"cluster-count": 1,
+			"min-height": 0,
+			"max-height": 30,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					5
+				]
+			}
+		},
+
+		"lapis": {
+			"distribution": "gaussian",
+			"generator": {
+				"block": "lapis_ore",
+				"material": "aether_legacy:holystone",
+				"cluster-size": 7
+			},
+			"cluster-count": 1,
+			"center-height": 16,
+			"spread": 16,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					5
+				]
+			}
+		},
+
+		"emerald": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "emerald_ore"
+				},
+				"material": "aether_legacy:holystone",
+				"cluster-size": 1
+			},
+			"cluster-count": {
+				"min": 3,
+				"max": 6
+			},
+			"min-height": 4,
+			"max-height": 28,
+			"retrogen": false
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					5
+				]
+			}
+		},
+
+		"quartz": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "quartz_ore"
+				},
+				"material": "aether_legacy:holystone",
+				"cluster-size": 14
+			},
+			"cluster-count": 1,
+			"min-height": 8,
+			"max-height": 118,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					5
+				]
+			}
+		},
+		
+		"dirt": {
+
+			"distribution": "uniform",
+			"generator": {
+				"block": "dirt",
+				"material": "aether_legacy:holystone",
+				"cluster-size": 20
+			},
+			"cluster-count": 2,
+			"min-height": 0,
+			"max-height": 256,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					5
+				]
+			}
+		},
+
+		"gravel": {
+			"distribution": "uniform",
+			"generator": {
+				"block": "gravel",
+				"material": "aether_legacy:holystone",
+				"cluster-size": 25
+			},
+			"cluster-count": 8,
+			"min-height": 25,
+			"max-height": 256,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					5
+				]
+			}
+		},
+		
+		"clay": {
+
+			"distribution": "uniform",
+			"generator": {
+				"block": "clay",
+				"material": "aether_legacy:holystone",
+				"cluster-size": 20
+			},
+			"cluster-count": 2,
+			"min-height": 50,
+			"max-height": 256,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					5
+				]
+			}
+		}
+	}
+}

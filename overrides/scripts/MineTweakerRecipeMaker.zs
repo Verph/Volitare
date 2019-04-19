@@ -12,6 +12,12 @@
 
 // ================================================================================
 //#MARKER REMOVE
+recipes.remove(<aercloudengine:valkyriegear>);
+recipes.remove(<aercloudengine:gravititegear>);
+recipes.remove(<aercloudengine:arkeniumgear>);
+recipes.remove(<aercloudengine:zanitegear>);
+recipes.remove(<aercloudengine:holystonegear>);
+recipes.remove(<aercloudengine:skyrootgear>);
 recipes.remove(<aether_legacy:skyroot_bucket>);
 recipes.remove(<aether:skyroot_bucket>);
 recipes.remove(<armourers_workshop:tile.colour-mixer>);
@@ -101,12 +107,20 @@ recipes.addShapeless(<minecraft:wool> * 4, [<aether:cloudwool_block>, <aether:cl
 
 // ================================================================================
 //#MARKER ADD SHAPED
+recipes.addShaped(<aercloudengine:brokenambrosium>, [[<aercloudengine:pieceambrosium>, <aercloudengine:pieceambrosium>], [<aercloudengine:pieceambrosium>, <aercloudengine:pieceambrosium>]]);
+recipes.addShaped(<aercloudengine:brokenzanite>, [[<aercloudengine:piecezanite>, <aercloudengine:piecezanite>], [<aercloudengine:piecezanite>, <aercloudengine:piecezanite>]]);
+recipes.addShaped(<aercloudengine:brokengravitite>, [[<aercloudengine:piecegravitite>, <aercloudengine:piecegravitite>], [<aercloudengine:piecegravitite>, <aercloudengine:piecegravitite>]]);
+recipes.addShaped(<aercloudengine:brokenarkenium>, [[<aercloudengine:piecearkenium>, <aercloudengine:piecearkenium>], [<aercloudengine:piecearkenium>, <aercloudengine:piecearkenium>]]);
+recipes.addShaped(<aercloudengine:brokenvalkyrie>, [[<aercloudengine:piecevalkyrie>, <aercloudengine:piecevalkyrie>], [<aercloudengine:piecevalkyrie>, <aercloudengine:piecevalkyrie>]]);
+recipes.addShaped(<tinkersaether:valkyrie_ingot>, [[<aercloudengine:valkyrienugget>, <aercloudengine:valkyrienugget>, <aercloudengine:valkyrienugget>], [<aercloudengine:valkyrienugget>, <aercloudengine:valkyrienugget>, <aercloudengine:valkyrienugget>], [<aercloudengine:valkyrienugget>, <aercloudengine:valkyrienugget>, <aercloudengine:valkyrienugget>]]);
+recipes.addShaped(<aether:arkenium>, [[<aercloudengine:arkeniumnugget>, <aercloudengine:arkeniumnugget>, <aercloudengine:arkeniumnugget>], [<aercloudengine:arkeniumnugget>, <aercloudengine:arkeniumnugget>, <aercloudengine:arkeniumnugget>], [<aercloudengine:arkeniumnugget>, <aercloudengine:arkeniumnugget>, <aercloudengine:arkeniumnugget>]]);
+recipes.addShaped(<aether:gravitite_plate>, [[<aercloudengine:gravititenugget>, <aercloudengine:gravititenugget>, <aercloudengine:gravititenugget>], [<aercloudengine:gravititenugget>, <aercloudengine:gravititenugget>, <aercloudengine:gravititenugget>], [<aercloudengine:gravititenugget>, <aercloudengine:gravititenugget>, <aercloudengine:gravititenugget>]]);
 recipes.addShaped(<aercloudengine:arkeniumrod> * 4, [[<ore:plateArkenium>], [<ore:plateArkenium>]]);
-recipes.addShaped(<aercloudengine:valkyriegear>, [[null, <ore:ingotValkyrie>, null], [<ore:ingotValkyrie>, null, <ore:ingotValkyrie>], [null, <ore:ingotValkyrie>, null]]);
-recipes.addShaped(<aercloudengine:gravititegear>, [[null, <aether:gravitite_plate>, null], [<aether:gravitite_plate>, null, <aether:gravitite_plate>], [null, <aether:gravitite_plate>, null]]);
-recipes.addShaped(<aercloudengine:arkeniumgear>, [[null, <aether:arkenium>, null], [<aether:arkenium>, null, <aether:arkenium>], [null, <aether:arkenium>, null]]);
-recipes.addShaped(<aercloudengine:zanitegear>, [[null, <ore:gemZanite>, null], [<ore:gemZanite>, <aercloudengine:skyrootgear>, <ore:gemZanite>], [null, <ore:gemZanite>, null]]);
-recipes.addShaped(<aercloudengine:holystonegear>, [[null, <ore:holystone>, null], [<ore:holystone>, null, <ore:holystone>], [null, <ore:holystone>, null]]);
+recipes.addShaped(<aercloudengine:valkyriegear>, [[null, <ore:ingotValkyrie>, null], [<ore:ingotValkyrie>, <ore:gearGravitite>, <ore:ingotValkyrie>], [null, <ore:ingotValkyrie>, null]]);
+recipes.addShaped(<aercloudengine:gravititegear>, [[null, <aether:gravitite_plate>, null], [<aether:gravitite_plate>, <ore:gearArkenium>, <aether:gravitite_plate>], [null, <aether:gravitite_plate>, null]]);
+recipes.addShaped(<aercloudengine:arkeniumgear>, [[null, <aether:arkenium>, null], [<aether:arkenium>, <ore:gearHolystone>, <aether:arkenium>], [null, <aether:arkenium>, null]]);
+recipes.addShaped(<aercloudengine:zanitegear>, [[null, <ore:gemZanite>, null], [<ore:gemZanite>, <ore:gearSkyroot>, <ore:gemZanite>], [null, <ore:gemZanite>, null]]);
+recipes.addShaped(<aercloudengine:holystonegear>, [[null, <ore:holystone>, null], [<ore:holystone>, <ore:gearSkyroot>, <ore:holystone>], [null, <ore:holystone>, null]]);
 recipes.addShaped(<aercloudengine:skyrootgear>, [[null, <ore:stickSkyroot>, null], [<ore:stickSkyroot>, null, <ore:stickSkyroot>], [null, <ore:stickSkyroot>, null]]);
 recipes.addShaped(<aether:zanite_gemstone>, [[<aercloudengine:zanitenugget>, <aercloudengine:zanitenugget>], [<aercloudengine:zanitenugget>, <aercloudengine:zanitenugget>]]);
 recipes.addShaped(<aether:ambrosium_shard>, [[<aercloudengine:ambrosiumnugget>, <aercloudengine:ambrosiumnugget>], [<aercloudengine:ambrosiumnugget>, <aercloudengine:ambrosiumnugget>]]);
@@ -152,6 +166,9 @@ recipes.addShaped(<aether:cloudwool_block> * 4, [[<minecraft:wool>, <minecraft:w
 
 // ================================================================================
 //#FURNACE
+furnace.addRecipe(<tinkersaether:valkyrie_ingot>, <aercloudengine:valkyriedust>);
+furnace.addRecipe(<aether:arkenium>, <aercloudengine:arkeniumdust>);
+furnace.addRecipe(<aether:gravitite_plate>, <aercloudengine:gravititedust>);
 furnace.addRecipe(<minecraft:stone>, <aether:agiosite>);
 furnace.addRecipe(<aether:agiosite>, <aether_legacy:holystone>);
 furnace.addRecipe(<minecraft:coal:1>, <ore:logSkyroot>);
@@ -159,6 +176,17 @@ furnace.addRecipe(<aether:fried_moa_egg>, <aether_legacy:moa_egg>.withTag({typeI
 furnace.addRecipe(<aether:fried_moa_egg>, <aether_legacy:moa_egg>.withTag({typeId: 1}));
 furnace.addRecipe(<aether:fried_moa_egg>, <aether_legacy:moa_egg>.withTag({typeId: 2}));
 furnace.addRecipe(<aether:fried_moa_egg>, <aether_legacy:moa_egg>.withTag({typeId: 3}));
+
+furnace.addRecipe(<aether:ambrosium_shard>, <aercloudengine:oregravelambrosium>);
+furnace.addRecipe(<aether:ambrosium_shard>, <aercloudengine:oresandambrosium>);
+furnace.addRecipe(<aether:zanite_gemstone>, <aercloudengine:oregravelzanite>);
+furnace.addRecipe(<aether:zanite_gemstone>, <aercloudengine:oresandzanite>);
+furnace.addRecipe(<aether:arkenium>, <aercloudengine:oregravelarkenium>);
+furnace.addRecipe(<aether:arkenium>, <aercloudengine:oresandarkenium>);
+furnace.addRecipe(<aether:gravitite_plate>, <aercloudengine:oregravelgravitite>);
+furnace.addRecipe(<aether:gravitite_plate>, <aercloudengine:oresandgravitite>);
+furnace.addRecipe(<aercloudengine:valkyriemetalplate>, <aercloudengine:oregravelvalkyrie>);
+furnace.addRecipe(<aercloudengine:valkyriemetalplate>, <aercloudengine:oresandvalkyrie>);
 
 
 // ================================================================================
@@ -179,10 +207,12 @@ mods.tconstruct.Melting.addRecipe(<liquid:water> * 2000, <aether:highlands_packe
 //mods.tconstruct.Melting.addRecipe(ILiquidStack output, IIngredient input, @Optional int temp);
 mods.tconstruct.Melting.addRecipe(<liquid:valkyrie> * 16, <aercloudengine:valkyrienugget>, 475);
 
-mods.tconstruct.Melting.addRecipe(<liquid:valkyrie> * 16, <aercloudengine:valkyrienugget>, 475);
 mods.tconstruct.Melting.addRecipe(<liquid:valkyrie> * 576, <aercloudengine:valkyriegear>, 650);
+mods.tconstruct.Melting.addRecipe(<liquid:valkyrie> * 144, <aercloudengine:valkyriedust>, 600);
+mods.tconstruct.Melting.addRecipe(<liquid:valkyrie> * 16, <aercloudengine:valkyrienugget>, 475);
 mods.tconstruct.Melting.addRecipe(<liquid:gravitite> * 576, <aercloudengine:gravititegear>, 600);
 mods.tconstruct.Melting.addRecipe(<liquid:gravitite> * 144, <aercloudengine:gravititedust>, 600);
+mods.tconstruct.Melting.addRecipe(<liquid:gravitite> * 16, <aercloudengine:gravititenugget>, 600);
 
 // ================================================================================
 //#REPLACEMENT
